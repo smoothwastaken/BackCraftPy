@@ -23,7 +23,9 @@ class Backup:
         os.makedirs(output_folder, exist_ok=True)
 
         output_archive_name = self.generate_output_archive_name()
-        output_path = os.path.join(output_folder, output_archive_name)
+        output_path = os.path.join(
+            self.config["serverPath"], output_folder, output_archive_name
+        )
 
         with tempfile.TemporaryDirectory() as temp_dir:
             for world in self.config["worldsToBackup"]:
