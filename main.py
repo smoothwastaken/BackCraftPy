@@ -48,7 +48,7 @@ class App:
         if not os.path.exists(self.config["backupsFolder"]):
             os.makedirs(self.config["backupsFolder"], exist_ok=True)
 
-        if self.config["backOnStart"]:
+        if self.config["backupOnStart"]:
             self.create_backup()
 
         while True:
