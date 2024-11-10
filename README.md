@@ -4,11 +4,11 @@ A simple Python project that creates a backup of a minecraft server.
 
 ## Features (WIP)
 
-[ ] - Backup your server
-[x] - Backup your worlds
-[ ] - Backup your plugins
-[ ] - Backup your server's configuration
-[ ] - Backup your server's logs
+- [ ] Backup your server
+- [x] Backup your worlds
+- [ ] Backup your plugins
+- [ ] Backup your server's configuration
+- [ ] Backup your server's logs
 
 ## Installation
 
