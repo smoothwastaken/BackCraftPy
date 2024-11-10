@@ -1,0 +1,11 @@
+{
+  "serverPath": "~/mc-server/",
+  "worldsToBackup": ["world", "world_nether", "world_the_end"],
+  "backupsFolder": "worldBackups",
+  "backupFormat": "zip",
+  "backupNameTemplate": "backup-##DATE##-##TIME##",
+
+  "backupInterval": 3600,
+  "maxBackupCount": 5,
+  "backupOnStart": true
+}
