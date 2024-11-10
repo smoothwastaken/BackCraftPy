@@ -55,3 +55,8 @@ class App:
             self.clean_backups()
             time.sleep(self.config["backupInterval"])
             self.create_backup()
+
+
+if __name__ == "__main__":
+    app = App()
+    app.run()
